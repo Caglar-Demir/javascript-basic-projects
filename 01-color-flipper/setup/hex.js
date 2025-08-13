@@ -13,8 +13,8 @@ btn.addEventListener('click', function(){
 
     document.body.style.backgroundColor = hexColor;
     color.textContent = hexColor;
-})
+});
 
 function getHex(){
     return hex[Math.floor(Math.random() * hex.length)];
-}
+};
